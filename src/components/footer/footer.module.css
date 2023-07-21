@@ -1,0 +1,14 @@
+.footer {
+  align-items: start;
+  padding: 24px 80px;
+  width: 100%;
+  margin-top: 16px;
+  border-top: 1px #5a5a5a solid;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 16px;
+  }
+
+}

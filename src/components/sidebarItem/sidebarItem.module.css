@@ -1,0 +1,19 @@
+.item {
+    display: block;
+    padding: 14px 16px;
+    width: 100%;
+    color: #AAAAAA;
+    list-style: none;
+    font-weight: 700;
+    border-bottom: 1px #5C5C5C solid;
+    
+}
+.item:hover {
+    background-color: #5C5C5C;
+    color: white;
+    cursor: pointer;
+}
+
+.item.isSelected{
+    color: white;
+}
